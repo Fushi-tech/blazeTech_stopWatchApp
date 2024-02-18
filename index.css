@@ -1,0 +1,54 @@
+/* ストップウォッチ */
+#stopwatch {
+    width: 480px;
+    height: 540px;
+    position: fixed;
+  }
+  
+  /* ディスプレイ */
+  #display {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 280px;
+    height: 100px;
+    font: bold 70px / 1 "Arial";
+  
+  }
+  
+  /* カウント表示部 */
+  #count {
+    position: relative;
+    top: 0%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+  }
+  
+  /* スタートボタン */
+  #start {
+    width: 80px;
+    height: 25px;
+    position: relative;
+    top: 30%;
+    right: 0%;
+    left: 50%;
+    background-color: rgb(30, 196, 66);
+    color: white;
+  }
+  
+  /* リセットボタン */
+  #reset {
+    width: 80px;
+    height: 25px;
+    position: relative;
+    top: 30%;
+    left: 0%;
+    background-color: rgb(30, 196, 66);
+    color: white;
+  }
+  
+  .body_title {
+    margin-left: 15%;
+  }
